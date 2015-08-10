@@ -1,17 +1,27 @@
 import unittest
 import sys
+import httpretty
 from time import sleep
-
-sys.path.append("../bowshock/")
-
 from bowshock import techport
 
+
 class techport_UnitTests(unittest.TestCase):
+
+    @httpretty.activate
     def test_techport_api(self):
+        correct_url = "http://techport.nasa.gov/xml-api/4795"
+        f = "fixtures/techport_endpoint.xml"
+        with open(f) as fixture:
+            correct_body = fixture.read()
+
+        httpretty.register_uri(httpretty.GET,
+                               correct_url,
+                               body = correct_body)
 
         r = techport.techport(Id="4795")
-        self.assertEqual(r.status_code, 200)
-        sleep(2)
+
+        self.assertEqual(r.url, correct_url)
+        self.assertEqual(r.text, correct_body)
 
 
 if __name__ == "__main__":

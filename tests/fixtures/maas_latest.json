@@ -1,0 +1,20 @@
+{
+    "report": {
+        "terrestrial_date": "2015-07-02", 
+        "sol": 1032, 
+        "ls": 6.0, 
+        "min_temp": -74.0, 
+        "min_temp_fahrenheit": -101.2, 
+        "max_temp": -16.0, 
+        "max_temp_fahrenheit": 3.2, 
+        "pressure": 854.0, 
+        "pressure_string": "Higher", 
+        "abs_humidity": null, 
+        "wind_speed": null, 
+        "wind_direction": "--", 
+        "atmo_opacity": "Sunny", 
+        "season": "Month 1", 
+        "sunrise": "2015-07-02T11:38:00Z", 
+        "sunset": "2015-07-02T23:35:00Z"
+    }
+}

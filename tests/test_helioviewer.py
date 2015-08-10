@@ -1,24 +1,65 @@
 import unittest
 import sys
-from time import sleep
-
-sys.path.append("../bowshock/")
-
+import httpretty
 from bowshock import helioviewer
 
-
 class helioviewer_UnitTests(unittest.TestCase):
-    def test_helioviewer_api_getjp2image(self):
+    @httpretty.activate
+    def test_helioviewer_getjp2image_without_sourceId(self):
+        correct_url = ("http://helioviewer.org/api/v1/getJP2Image/"
+                       "?date=2014-01-01T23:59:59Z"
+                       "&observatory=SDO&instrument=AIA&detector=AIA"
+                       "&measurement=335&jpip=true")
+        correct_body = ("jpip://helioviewer.org:8090/AIA/2014/01/02/335/"
+                        "2014_01_02__00_00_02_62__SDO_AIA_AIA_335.jp2")
 
-        r = helioviewer.getjp2image(date='2014-01-01T23:59:59', sourceId=14)
-        self.assertEqual(r.status_code, 200)
-        sleep(2)
+        httpretty.register_uri(httpretty.GET,
+                               correct_url,
+                               body = correct_body)
 
-    def test_helioviewer_api_getjp2header(self):
+        r = helioviewer.getjp2image(date="2014-01-01T23:59:59",
+                                    observatory="SDO",
+                                    instrument="AIA",
+                                    detector="AIA",
+                                    measurement="335")
+
+        self.assertEqual(r.url, correct_url)
+        self.assertEqual(r.text, correct_body)
+
+    @httpretty.activate
+    def test_helioviewer_getpy2image_with_sourceId(self):
+        correct_url = ("http://helioviewer.org/api/v1/getJP2Image/"
+                       "?date=2014-01-01T23:59:59Z"
+                       "&sourceId=14&jpip=true")
+        correct_body = ("jpip://helioviewer.org:8090/AIA/2014/01/02/335/"
+                        "2014_01_02__00_00_02_62__SDO_AIA_AIA_335.jp2")
+
+        httpretty.register_uri(httpretty.GET,
+                               correct_url,
+                               body = correct_body)
+
+        r = helioviewer.getjp2image(date="2014-01-01T23:59:59",
+                                    sourceId=14)
+
+        self.assertEqual(r.url, correct_url)
+        self.assertEqual(r.text, correct_body)
+
+    @httpretty.activate
+    def test_helioviewer_getjp2header(self):
+        correct_url = ("http://helioviewer.org/api/v1/getJP2Header/"
+                       "?id=7654321")
+        f = "fixtures/helioviewer_getjp2header.xml"
+        with open(f) as fixture:
+            correct_body = fixture.read()
+
+        httpretty.register_uri(httpretty.GET,
+                               correct_url,
+                               body = correct_body)
 
         r = helioviewer.getjp2header(Id=7654321)
-        self.assertEqual(r.status_code, 200)
-        sleep(2)
+
+        self.assertEqual(r.url, correct_url)
+        self.assertEqual(r.text, correct_body)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,197 @@
+<project id="4795">
+<title>Laser Communications Relay Demonstration Project</title>
+<acronym>LCRD</acronym>
+<status>Active</status>
+<type>Project</type>
+<abstract>
+<![CDATA[
+&lt;p&gt;Spaceflight payload to demonstrate optical communications relay services between geosynchronous orbit and Earth over an extended time period.&amp;nbsp; This will enable the design and operation of future optical communications systems and relay networks.&lt;/p&gt;
+]]>
+</abstract>
+<full_description>
+<![CDATA[
+&lt;p&gt;The Laser Communications Relay Demonstration project will advance optical communications technology, expanding industry&amp;rsquo;s capability to produce competitive, high-value optical communications systems and components. A hosted payload with two optical-communications space terminals and associated electronics will fly to geosynchronous Earth orbit on a commercial spacecraft, where it will communicate with ground stations. The technology also will enable communications with other spacecraft in low-Earth orbit. Launch is planned for 2018 in partnership with NASA&amp;rsquo;s Space Communications and Navigation (SCaN) Program, with expectations to implement the LCRD technology and concepts in next- generation space communication relays.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; LCRD: Key Mission Facts&lt;/p&gt;&lt;p&gt;&lt;br /&gt;- The Laser Communications Relay Demonstration mission is NASA&amp;rsquo;s first, long-duration optical communications mission.&lt;br /&gt;- The demonstration will use lasers to encode and transmit data at rates 10-to-100-times faster than radio -- or at the same data rate as today&amp;#39;s fastest RF radios, but using significantly less mass and power.&lt;br /&gt;- The project will help mature concepts and deliver technologies applicable to both near-Earth and deep-space communication network missions.&lt;br /&gt;- The investigation will enable a variety of robust future science and exploration missions -- providing a higher data rate, and delivering more accurate navigation capabilities with reduced size, weight and power requirements.&lt;/p&gt;
+]]>
+</full_description>
+<library>
+<library_item id="755">
+<title>15112.jpg</title>
+<type>Image</type>
+<description>
+<![CDATA[ Project Image ]]>
+</description>
+<url/>
+<completion_date/>
+<published_by/>
+<published_date/>
+<file_id>1200</file_id>
+<file_url>http://techport.nasa.gov:80/file/1200</file_url>
+<file_size>29478</file_size>
+<caption>Laser Communications Relay Demonstration (LCRD)</caption>
+</library_item>
+<library_item id="846">
+<title>4795-1390849155521.jpg</title>
+<type>Image</type>
+<description/>
+<url/>
+<completion_date/>
+<published_by/>
+<published_date/>
+<file_id>2482</file_id>
+<file_url>http://techport.nasa.gov:80/file/2482</file_url>
+<file_size>667388</file_size>
+<caption>Laser Communications Relay Demonstration (LCRD)</caption>
+</library_item>
+<library_item id="153">
+<title>NTR 1</title>
+<type>New Technology Report</type>
+<description/>
+<published_by/>
+<published_date/>
+</library_item>
+</library>
+<technologies>
+<technology id="251">
+<title>Laser Communications Relay Demonstration (LCRD)</title>
+<classification>
+This technology is categorized as a hardware system for unmanned spaceflight
+</classification>
+<description>
+<![CDATA[
+&lt;p&gt;The Laser Communications Relay Demonstration project will advance optical communications technology, expanding industry&amp;rsquo;s capability to produce competitive, high-value optical communications systems and components. A hosted payload with two optical-communications space terminals and associated electronics will fly to geosynchronous Earth orbit on a commercial spacecraft, where it will communicate with two separate ground stations. The technology also will enable communications with other spacecraft in low-Earth orbit. Launch is planned for 2018 in partnership with NASA&amp;rsquo;s Space Communications and Navigation (SCaN) Program, with expectations to implement the LCRD technology and concepts in next- generation space communication relays.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; LCRD: Key Mission Facts&lt;/p&gt;&lt;p&gt;&lt;br /&gt;- The Laser Communications Relay Demonstration mission is NASA&amp;rsquo;s first, long-duration optical communications mission.&lt;br /&gt;- The demonstration will use lasers to encode and transmit data at rates 10-to-100-times faster than radio -- or at the same data rate as today&amp;#39;s fastest RF radios, but using significantly less mass and power.&lt;br /&gt;- The project will help mature concepts and deliver technologies applicable to both near-Earth and deep-space communication network missions.&lt;br /&gt;- The investigation will enable a variety of robust future science and exploration missions -- providing a higher data rate, and delivering more accurate navigation capabilities with reduced size, weight and power requirements.&lt;/p&gt;
+]]>
+</description>
+<capabilities_provided>
+<![CDATA[
+&lt;p&gt;The team is working to fly and validate a reliable, capable, and cost-effective optical communications technology directly applicable to the next generation of NASA&amp;#39;s space communications network, serving both near-Earth and deep-space mission requirements. The technology will demonstrate end-to-end optical systems for communication between Earth and GEO.&lt;/p&gt;
+]]>
+</capabilities_provided>
+<potential_applications>
+<![CDATA[
+&lt;p&gt;Optical communications capability for Next Gen TDRS space-based relay.&lt;/p&gt;
+]]>
+</potential_applications>
+<technology_areas>
+<technology_area id="1075">
+<code>5</code>
+<name>
+Communications, Navigation, and Orbital Debris Tracking and Characterization Systems
+</name>
+<priority>PRIMARY</priority>
+</technology_area>
+<technology_area id="1160">
+<code>5.1.3.1</code>
+<name>
+High DC-Optical Efficiency, Space-Qualified Pulse-Position Modulation (PPM) Laser Transmitter
+</name>
+<priority>ADDITIONAL</priority>
+</technology_area>
+<technology_area id="1161">
+<code>5.1.3.2</code>
+<name>Outer Planet/Oort Cloud Laser Transmitter</name>
+<priority>SECONDARY</priority>
+</technology_area>
+<technology_area id="1167">
+<code>5.1.7.1</code>
+<name>Multi-Mode Coherent Transceivers</name>
+<priority>PRIMARY</priority>
+</technology_area>
+<technology_area id="631">
+<code>13.3.7.5</code>
+<name>Free Space Optics for Ground Communications</name>
+<priority>ADDITIONAL</priority>
+</technology_area>
+</technology_areas>
+<technology_maturity_start>6</technology_maturity_start>
+<technology_maturity_current>6</technology_maturity_current>
+<technology_maturity_end>9</technology_maturity_end>
+<performance_parameters>
+<performance_parameter id="2265">
+<description>Data rate</description>
+<unit>times faster than radio</unit>
+<quantity>100</quantity>
+</performance_parameter>
+</performance_parameters>
+</technology>
+</technologies>
+<benefits_nasa_funded>
+<![CDATA[
+&lt;p&gt;A reliable, capable, and cost effective optical communication technology for infusion into operational systems. Optical systems provide significantly increased data rates or reduced power. Provides on orbit test bed for both deep space and near earth optical communication mission scenarios through collaboration of NASA with other US agencies. Project helps to develop industry sources for space optical communication systems.&lt;/p&gt;
+]]>
+</benefits_nasa_funded>
+<benefits_nasa_unfunded/>
+<benefits_oga>
+<![CDATA[
+&lt;ul&gt;&lt;li&gt;Demo &amp;amp; validate a reliable, capable, and cost effective optical comm technology for infusion into operational systems.&lt;/li&gt;&lt;li&gt;Provide on orbit test bed for both deep space and near earth optical comm mission scenarios.&lt;/li&gt;&lt;li&gt;Collaboration of NASA collaboration with other US agencies. Develop industry sources for space optical comm systems.&lt;/li&gt;&lt;/ul&gt;
+]]>
+</benefits_oga>
+<benefits_commercial>
+<![CDATA[
+&lt;ul&gt;&lt;li&gt;Demo &amp;amp; validate a reliable, capable, and cost effective optical comm technology for infusion into operational systems.&lt;/li&gt;&lt;li&gt;Provide on orbit test bed for both deep space and near earth optical comm mission scenarios.&lt;/li&gt;&lt;/ul&gt;
+]]>
+</benefits_commercial>
+<benefits_nation/>
+<lead_center>Goddard Space Flight Center</lead_center>
+<supporting_centers>
+<supporting_center>
+<center_name>Jet Propulsion Laboratory</center_name>
+<acronym>JPL</acronym>
+<city>Pasadena</city>
+<state>CA</state>
+</supporting_center>
+</supporting_centers>
+<states_or_territories_with_work>
+<state_or_territory>
+<name>California</name>
+</state_or_territory>
+<state_or_territory>
+<name>Maryland</name>
+</state_or_territory>
+<state_or_territory>
+<name>Massachusetts</name>
+</state_or_territory>
+</states_or_territories_with_work>
+<other_organizations_performing_work>
+<organization>
+<name>MIT Lincoln Laboratory</name>
+<type>Commercial Company</type>
+</organization>
+<organization>
+<name>Space Systems Loral</name>
+<type>Commercial Company</type>
+</organization>
+</other_organizations_performing_work>
+<contributing_partners>
+<contributing_partner>
+<name>NASA Space Communications and Navigation</name>
+<type>Government Agency</type>
+</contributing_partner>
+</contributing_partners>
+<twitter_url/>
+<website_url/>
+<facebook_url/>
+<google_plus_url/>
+<responsible_mission_directorate_or_office>Space Technology Mission Directorate</responsible_mission_directorate_or_office>
+<program_executives>
+<program_executive>
+<name>Timothy Chen</name>
+</program_executive>
+</program_executives>
+<program_managers>
+<program_manager>
+<name>John Mcdougal</name>
+</program_manager>
+</program_managers>
+<project_managers>
+<project_manager>
+<name>Kevin Carmack</name>
+</project_manager>
+</project_managers>
+<principal_investigators>
+<principal_investigator>
+<name>David Israel</name>
+</principal_investigator>
+</principal_investigators>
+<start_date>Oct 2011</start_date>
+<end_date>Dec 2019</end_date>
+</project>

@@ -36,14 +36,14 @@ def getjp2image(date,
     EXAMPLE: http://helioviewer.org/api/v1/getJP2Image/?date=2014-01-01T23:59:59Z&sourceId=14&jpip=true
     '''
 
-    base_url = 'http://helioviewer.org/api/v1/getJP2Image/?'
-    req_url = ''
+    base_url = "http://helioviewer.org/api/v1/getJP2Image/?"
+    req_url = ""
 
     try:
         validate_iso8601(date)
-        if not date[-1:] == 'Z':
-            date += 'Z'
-        base_url += 'date=' + date
+        if not date[-1:] == "Z":
+            date += "Z"
+        base_url += "date=" + date + "&"
     except:
         raise ValueError(
             "Your date input is not in iso8601 format. ex: 2014-01-01T23:59:59")
@@ -67,6 +67,7 @@ def getjp2image(date,
                 "The instrument argument should be a str, ignoring it")
         else:
             base_url += "instrument=" + instrument + "&"
+
     if detector:
         if not isinstance(detector, str):
             logger.error("The detector argument should be a str, ignoring it")
@@ -78,7 +79,7 @@ def getjp2image(date,
             logger.error(
                 "The measurement argument should be a str, ignoring it")
         else:
-            base_url += "measurement=" + detector + "&"
+            base_url += "measurement=" + measurement + "&"
 
     req_url += base_url + "jpip=true"
 

@@ -1,17 +1,25 @@
 import unittest
-import sys
-from time import sleep
-
-sys.path.append("../bowshock/")
-
+import httpretty
 from bowshock import skymorph
 
 class skymorph_UnitTests(unittest.TestCase):
+
+    @httpretty.activate
     def test_skymorph_object_search(self):
+        correct_url = ("http://asterank.com/api/skymorph/search?"
+                       "target=J99TS7A")
+        f = "fixtures/skymorph_object_search.json"
+        with open(f) as fixture:
+            correct_body = fixture.read()
+
+        httpretty.register_uri(httpretty.GET,
+                               correct_url,
+                               body = correct_body)
 
         r = skymorph.search_target_obj("J99TS7A")
-        self.assertEqual(r.status_code, 200)
-        sleep(2)
+
+        self.assertEqual(r.url, correct_url)
+        self.assertEqual(r.text, correct_body)
 
 
 if __name__ == "__main__":
